@@ -6,10 +6,24 @@ A simple todo app built with django
 To get this repository, run the following command inside your git enabled terminal
 ```bash
 $ git clone https://github.com/shreys7/django-todo.git
+
+$ pip install virtualenv   
+
+$ virtualenv -p python3.7 env ---------- for virtual environment to run this project 
+
+ to activate virual env ---- $ env\scripts\activate
 ```
 You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
 
 Once you have downloaded django, go to the cloned repo directory and run the following command
+
+```bash
+$ cd django-todo  
+```
+
+```bash
+$ pip install django 
+```
 
 ```bash
 $ python manage.py makemigrations
@@ -36,3 +50,17 @@ $ python manage.py runserver
 Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
 
 Cheers and Happy Coding :)
+
+
+to create requirement file ----- pip freeze > requirements.txt
+
+
+to push update ----
+
+git checkout -b feature/deploy-app
+
+git add .
+
+git commit -m "Added Requirements" 
+
+git push origin feature/deploy-app
