@@ -85,4 +85,4 @@ CMD ["python","manage.py","runserver","0.0.0.0:8001"]
 
 sudo docker build . -t todo-app
 
-sudo docker run -p 8001:8001 <imageID>
+sudo docker run -d -p 8001:8001 <imageID>
