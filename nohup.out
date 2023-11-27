@@ -1,0 +1,70 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+November 27, 2023 - 15:32:33
+Django version 4.2.7, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+November 27, 2023 - 15:33:44
+Django version 4.2.7, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+
+Not Found: /meta.json
+[27/Nov/2023 15:41:14] "GET /meta.json HTTP/1.1" 404 2569
+[27/Nov/2023 15:41:14] code 400, message Bad request version ('næ\x88\x82CÒo`"s')
+[27/Nov/2023 15:41:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+[27/Nov/2023 15:41:14] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[27/Nov/2023 15:41:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+[27/Nov/2023 15:41:14] code 400, message Bad request version ('\x00ÃpÀ4¬ñóÝ1d/^ìDi\x00\x05\x00\x03\x02h2\x00')
+[27/Nov/2023 15:41:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+[27/Nov/2023 15:41:15] code 400, message Bad request version ('±.·¯rUá½%{»\x9b*\x00')
+[27/Nov/2023 15:41:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /meta.json
+[27/Nov/2023 15:41:15] "GET /meta.json HTTP/1.1" 404 2569
+[27/Nov/2023 15:41:16] "GET / HTTP/1.1" 302 0
+[27/Nov/2023 15:41:16] "GET /todos HTTP/1.1" 301 0
+[27/Nov/2023 15:41:17] "GET /todos/ HTTP/1.1" 200 3515
+[27/Nov/2023 15:41:18] "GET /static/css/style.css HTTP/1.1" 200 225
+[27/Nov/2023 15:41:18] code 400, message Bad request version ('\x87AØ¢\x8byµÒËu´{\x83V±xeÝ\x9eàä²þ\x9b1bßªåj\x8dª\x00')
+[27/Nov/2023 15:41:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[27/Nov/2023 15:41:18] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[27/Nov/2023 15:41:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /favicon.ico
+[27/Nov/2023 15:41:20] "GET /favicon.ico HTTP/1.1" 404 2575
+Not Found: /meta.json
+[27/Nov/2023 15:41:20] "GET /meta.json HTTP/1.1" 404 2569
+[27/Nov/2023 15:41:20] code 400, message Bad request version ('\x00\x02\x01\x00\x00-\x00\x02\x01\x01\x00')
+[27/Nov/2023 15:41:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+[27/Nov/2023 15:41:20] code 400, message Bad request version ('\x009)[vO\x98')
+[27/Nov/2023 15:41:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+[27/Nov/2023 15:41:20] code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\xadªª\x00\x00\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[27/Nov/2023 15:41:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+[27/Nov/2023 15:41:21] code 400, message Bad request version ('pZKAtVç\x8e7ç°\x82\x162ÚÐìé\x0e')
+[27/Nov/2023 15:41:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /meta.json
+[27/Nov/2023 15:41:23] "GET /meta.json HTTP/1.1" 404 2569
+[27/Nov/2023 15:42:12] "GET / HTTP/1.1" 302 0
+[27/Nov/2023 15:42:12] "GET /todos HTTP/1.1" 301 0
+[27/Nov/2023 15:42:12] "GET /todos/ HTTP/1.1" 200 3515
+[27/Nov/2023 15:42:13] "GET /static/css/style.css HTTP/1.1" 200 225
+Not Found: /favicon.ico
+[27/Nov/2023 15:42:14] "GET /favicon.ico HTTP/1.1" 404 2575
