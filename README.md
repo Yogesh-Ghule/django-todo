@@ -64,3 +64,25 @@ git add .
 git commit -m "Added Requirements" 
 
 git push origin feature/deploy-app
+
+
+
+on ec2 
+```bash
+$ nohup python manage.py runserver 0.0.0.0:8001
+```
+
+fordocker ---
+vim Dockerfile ---------
+```
+FROM python:3
+RUN pip install django==3.2
+COPY . .
+RUN python manage.py migrate
+CMD ["python","manage.py","runserver","0.0.0.0:8001"]
+
+```
+
+sudo docker build . -t todo-app
+
+sudo docker run -p 8001:8001 <imageID>
